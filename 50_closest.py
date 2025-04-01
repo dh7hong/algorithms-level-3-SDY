@@ -1,6 +1,6 @@
 def find_previous_occurrence(index, s):
     print(f'index: {index}, s: {s}')
-    for j in range(index - 1, -1, -1):
+    for j in range(index-1, -1, -1):
         # go through the string from the current index to the start
         print(f's: {s}, j: {j}, index: {index}')
         if s[index] == s[j]:
@@ -15,7 +15,7 @@ def solution(s):
 
     result = []
     for index in range(len(s)):
-        
+        # for 'banana', the first index is 0, the second is 1, and so on until 5
         result.append(find_previous_occurrence(index, s))
         print(f'result: {result}')
     

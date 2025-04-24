@@ -29,3 +29,8 @@ def solution(answers):
 # Example usage
 print(solution([1,2,3,4,5]))  # Output: [1]
 print(solution([1,3,2,4,2]))  # Output: [1,2,3]
+
+# rules for naming variables:
+# 1. Use lowercase letters and underscores to separate words (e.g., `max_score`, `my_max_score`).
+# 2. camelCase is typically used for variable names in Python (e.g., `studentScores`, `myVariableName`).
+# 3. Use descriptive names that convey the purpose of the variable (e.g., `student_scores`).

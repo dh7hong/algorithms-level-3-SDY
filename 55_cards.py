@@ -16,3 +16,8 @@ def solution(cards1, cards2, goal):
     
     # If all words in goal are matched successfully, return "Yes"
     return "Yes"
+
+cards1 = ["i", "drink", "water"]
+cards2 = ["want", "to"]
+goal = ["i", "want", "to", "drink", "water"]
+print(solution(cards1, cards2, goal))  # Output: "Yes"

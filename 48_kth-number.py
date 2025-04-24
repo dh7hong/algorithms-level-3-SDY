@@ -1,8 +1,10 @@
 def solution(array, commands):
     result = []  # List to store the final results
-    
+    print(f'Input array: {array}')
+    print(f'Commands: {commands}')
     # Iterate through each command in commands
     for command in commands:
+        print(f'i, j, k = command: {command}')
         i, j, k = command  # Extract i, j, k from the command list
         
         # Step 1: Slice the array from index (i-1) to (j) 
@@ -21,6 +23,7 @@ def solution(array, commands):
     
     return result  # Return the final list containing all results
 
+print(solution([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
 
 
 def solution2(array, commands):
